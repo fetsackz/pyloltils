@@ -9,7 +9,9 @@ setup(
     author_email='-',
     license='MIT License',
     packages=['pyloltils'],
-    install_requires=['matplotlib',                     
+    install_requires=['matplotlib',
+                    'typing',
+                    'numpy',                    
                       ],
 
     classifiers=[
